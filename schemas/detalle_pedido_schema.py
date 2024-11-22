@@ -1,5 +1,7 @@
 from utils.ma import ma
 from models.detalle_pedido import Detalle_pedido
+from schemas.pedido_schema import PedidoSchema
+from schemas.producto_schema import ProductoSchema
 
 class DetallePedidoSchema(ma.Schema):
     class Meta:
